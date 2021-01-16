@@ -23,12 +23,13 @@ function Item({title, desc, backgroundImg, leftBtnText, leftBtnLink, rightBtnTex
                             (
                             <Button imp='secondary' text={rightBtnText} link={rightBtnLink}/>
                             )}
-                        {first && (
+                    </div>
+                    {first && (
                             <div className='item__expand'>
-                                <ExpandMoreIcon/>
+                            <a href="#" >
+                                <ExpandMoreIcon /></a>
                             </div>
                         )}
-                    </div>
                 </div>
             </div>
         </div>

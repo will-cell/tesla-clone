@@ -14,12 +14,14 @@
     height: 24px;
     width: 100px;
     margin-top: 7px;
+    flex: 0.2;
 }
 
 .header__center{
     flex: 1 ; 
     display: flex;
     justify-content: center;
+    flex: 0.6;
 }
 
 .header__center > p {
@@ -32,6 +34,8 @@
     display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
+        padding-right: 47px;
+        flex: 0.2;
 }
 
 .header__right >p {
